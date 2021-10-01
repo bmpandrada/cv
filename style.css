@@ -3,6 +3,13 @@ html{
   padding: 0;
   background: beige;
 }
+img{
+  border-radius:2em;
+    padding: 0 5em;
+    width: 10em;
+    height: 10em;
+
+}
 a{
   text-decoration: none;
 }
@@ -10,30 +17,39 @@ h2{
   font-size: 1.5em;
   text-align: center;
   margin: 2em 0;
-
 }
 h3{
   font-size: 1em;
+  margin: 0.4em 0;
 }
 section{
-  margin: 0 4em;
+  margin: 0 5em;
 
 }
 section ul{
   margin: 0 2em;
 }
-.header{
+.header {
   display: flex;
   flex-direction:row;
-  justify-content: space-between;
+  justify-content:space-between ;
+  flex-wrap:wrap;
+
+}
+.text{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
 
 }
 section .content{
   display: flex;
   text-align: center;
   flex-direction: column;
-
-
 }
 table{
   margin: 0;
@@ -43,7 +59,7 @@ table{
 th,
 td {
   width: 100%;
-  text-align: flex-start;
+  text-align: left;
   justify-content:center;
   border: .01em solid black;
   padding: .5em;
