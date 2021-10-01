@@ -4,11 +4,16 @@ html{
   background: beige;
 }
 img{
-  border-radius:2em;
-    padding: 0 5em;
-    width: 10em;
-    height: 10em;
 
+    width: auto;
+    margin-top: 0 1em;
+    padding: 0 1em ;
+}
+.text{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
 }
 a{
   text-decoration: none;
@@ -20,7 +25,7 @@ h2{
 }
 h3{
   font-size: 1em;
-  margin: 0.4em 0;
+  margin: 0.3em 0;
 }
 section{
   margin: 0 5em;
@@ -32,20 +37,10 @@ section ul{
 .header {
   display: flex;
   flex-direction:row;
-  justify-content:space-between ;
-  flex-wrap:wrap;
+  justify-content:space-between;
 
 }
-.text{
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
-
-
-
-}
 section .content{
   display: flex;
   text-align: center;
