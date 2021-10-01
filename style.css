@@ -35,6 +35,8 @@ h3{
 }
 h5{
   text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5em;
 }
 section{
   margin: 0 5em;
@@ -60,11 +62,13 @@ table{
   border-collapse: separate;
   border-spacing: 0 1em;
 }
-th,
 td {
   width: 100%;
   text-align: left;
   justify-content:center;
   border: .01em solid black;
   padding: .5em;
+}
+th{
+justify-content: center;
 }
