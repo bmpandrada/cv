@@ -4,12 +4,14 @@ html{
   background: beige;
 }
 img{
-
-    width: auto;
-    margin-top: 0 1em;
+    width: 8em;
+    height: auto;
     padding: 0 1em ;
+
 }
+
 .text{
+  width: 100%;
   text-align: left;
   display: flex;
   flex-direction: column;
