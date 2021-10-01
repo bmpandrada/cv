@@ -8,6 +8,8 @@ a{
 }
 h2{
   font-size: 1.5em;
+  text-align: center;
+  margin: 2em 0;
 
 }
 h3{
@@ -26,10 +28,23 @@ section ul{
   justify-content: space-between;
 
 }
-.content{
+section .content{
   display: flex;
-  flex-direction:row;
-  justify-content:space-between;
+  text-align: center;
+  flex-direction: column;
 
 
+}
+table{
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+th,
+td {
+  width: 100%;
+  text-align: flex-start;
+  justify-content:center;
+  border: .01em solid black;
+  padding: .5em;
 }
